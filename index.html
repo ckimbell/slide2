@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Welcome to Trello</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<header class="clearfix">
+				<nav>
+
+				</nav>
+			</header>
+			<div id="cbp-fwslider" class="cbp-fwslider">
+				<ul>
+					<li>
+						<h1>Welcome to Trello!</h1>
+						<p>We're so excited you're here! Let's get aquainted.<br>See how easy it is to organize your world...</p>
+						<a class="vidthumb" href="#"><img src="images/vidthumb.png" width="547" alt="img01"/></a>
+					</li>
+					<li>
+						<h1>Trello Gives You Perspective.</h1>
+						<p>There are so many great ways to use Trello from work to fun<br> and everything in between. Pick some examples to explore...</p>
+						<div class="examples">
+							   <a class="inspiring-boards"><span class="inspiring-boards-label">Manage a project</span><img  src="images/work.png" width="156" alt="Work Board"></a>
+							   <a class="inspiring-boards"><span class="inspiring-boards-label">Plan a vacation</span><img src="images/life.png" width="156" alt="Life Board"></a>
+							   <a class="inspiring-boards"><span class="inspiring-boards-label">Research a thing</span><img src="images/education.png" width="156" alt="Education Board"></a>
+						</div>
+
+					</li>
+					<li>
+						<h1>Let's Get Organized...</h1>
+						<a href="#"><img src="images/borad_list_card.png" width="376" alt="img03"/></a>
+						<div class="para"><p>A Trello board represents a project.<br>You arrange tasks on 'cards' spread across 'lists'.<br>You can invite collaborators.<br>All of a sudden you've got this instant,<br>visual way to see what's going on.</p><p>Give it a whirl...</p></div>
+						<div class="board-form">
+							<input type="text" name="boardname" id="boardname" tabindex="1" autocorrect="off"  placeholder="Enter the name of whatever you're organizing">
+						</div>
+						<div class="button-centerer">
+							<button class="superJumbo button-green">Create Your First Board</button>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpFWSlider.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpFWSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease'
+				}
+				- destroy:
+				$( selector ).cbpFWSlider( 'destroy' );
+				*/
+
+				$( '#cbp-fwslider' ).cbpFWSlider();
+
+			} );
+		</script>
+	</body>
+</html>
