@@ -204,16 +204,16 @@ p {
 }
 
 textarea, input[type="text"] {
-    background: #edeff0;
+    background: #fff;
     border-radius: 4px;
-    border: 1px solid #cdd2d4;
+    border: 1px solid #fff;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: .6em;
-    max-width: 373px;
+    max-width: 300px;
     width: 100%;
     font-size: 16px;
-        margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .board-form {
@@ -295,6 +295,12 @@ textarea, input[type="text"] {
 
 .pick-some-examples {
 	color: #FAF3C0;
+}
+
+.make-a-board p {
+	font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 2em;
 }
 
 
