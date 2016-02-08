@@ -258,24 +258,26 @@ textarea, input[type="text"] {
     filter:alpha(opacity=100); 
 }
 
+.perspective {
+	margin: 4em auto;
+    max-width: 599px;
+}
+
 .perspective h1 {
-    position: relative;
-	left: 490px;
-    top: -74px;
+
     text-align: left !important;
 }
 
 .perspective p {
-    position: relative;
-	left: 490px;
-    top: -87px;
+
     text-align: left !important;
 }
 
-.perspective-image {
-	position: relative;
-	left: 220px;
-    top: 89px;
+.perspective-img {
+	    float: left;
+    position: relative;
+    right: 46px;
+
 }
 
 
@@ -289,6 +291,10 @@ textarea, input[type="text"] {
 
 .board-list-card {
 	text-align: center;
+}
+
+.pick-some-examples {
+	color: #FAF3C0;
 }
 
 
