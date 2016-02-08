@@ -7,7 +7,7 @@
 		<title>Welcome to Trello</title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
@@ -23,34 +23,49 @@
 				<ul>
 					<li>
 						<h1>Welcome to Trello!</h1>
-						<p>We're so excited you're here! Let's get aquainted.<br>See how easy it is to organize your world...</p>
+						<p>We're excited you've joined us!<br>Watch how easy it is to organize your world.</p>
 						<a class="vidthumb" href="#"><img src="images/vidthumb.png" width="547" alt="img01"/></a>
 					</li>
 					<li>
-						<h1>Trello Gives You Perspective.</h1>
-						<p>There are so many great ways to use Trello from work to fun<br> and everything in between. Pick some examples to explore...</p>
-						<div class="examples">
-							   <a class="inspiring-boards"><span class="inspiring-boards-label">Manage a project</span><img  src="images/work.png" width="156" alt="Work Board"></a>
-							   <a class="inspiring-boards"><span class="inspiring-boards-label">Plan a vacation</span><img src="images/life.png" width="156" alt="Life Board"></a>
-							   <a class="inspiring-boards"><span class="inspiring-boards-label">Research a thing</span><img src="images/education.png" width="156" alt="Education Board"></a>
-						</div>
+						<img class="perspective-image" src="images/perspective.png" width="225" alt="Live with perspective"/>
+						<div class="perspective"><h1>Live With Perspective</h1>
+						<p>Get a clear view of what’s going on, whatever you’re up to.<br>
+						<span>Pick some examples to explore...</span></p>
+					</div>
+			<section>
+				<form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+					<ul>
+						<li class="one"><input id="cb1" name="cb1" type="checkbox"><label for="cb1">Project<br>tracker</label></li>
+						<li class="one"><input id="cb2" name="cb2" type="checkbox"><label for="cb2">Sales<br>pipeline</label></li>
+						<li class="one"><input id="cb3" name="cb3" type="checkbox"><label for="cb3">Editorial<br>calendar</label></li>
+						<li class="two"><input id="cb4" name="cb4" type="checkbox"><label for="cb4">Vacation<br>planner</label></li>
+						<li class="two"><input id="cb5" name="cb5" type="checkbox"><label for="cb5">Personal<br>goals</label></li>
+						<li class="two"><input id="cb6" name="cb6" type="checkbox"><label for="cb6">Meal<br>planner</label></li>
+						<li class="three"><input id="cb7" name="cb7" type="checkbox"><label for="cb7">Some<br>thing</label></li>
+						<li class="three"><input id="cb8" name="cb8" type="checkbox"><label for="cb8">Production<br>workflow</label></li>
+						<li class="three"><input id="cb9" name="cb9" type="checkbox"><label for="cb9">Suprise<br>me!</label></li>
+					<ul>
+				</form>
+			</section>
 
 					</li>
 					<li>
-						<h1>Let's Get Organized...</h1>
-						<a href="#"><img src="images/borad_list_card.png" width="376" alt="img03"/></a>
-						<div class="para"><p>A Trello board represents a project.<br>You arrange tasks on 'cards' spread across 'lists'.<br>You can invite collaborators.<br>All of a sudden you've got this instant,<br>visual way to see what's going on.</p><p>Give it a whirl...</p></div>
+						<h1>Let's Make a Board</h1>
+						<div class="board-list-card"><img src="images/borad_list_card.png" width="514" alt="Boards Lists and Cards"/>
+						</div>
+						<div class="para"><p>A board represents a project. Make cards for tasks.<br> Arrange them on lists. Invite people. Move cards <br>as you progress. It’s a flexible, visual way to know <br>what’s happening. Give it a whirl... </p></div>
 						<div class="board-form">
-							<input type="text" name="boardname" id="boardname" tabindex="1" autocorrect="off"  placeholder="Enter the name of whatever you're organizing">
+							<input type="text" name="boardname" id="boardname" tabindex="1" autocorrect="off"  placeholder="What are you organizing?">
 						</div>
 						<div class="button-centerer">
-							<button class="superJumbo button-green">Create Your First Board</button>
+							<button class="superJumbo button-green">Create Board</button>
 						</div>
 					</li>
 
 				</ul>
 			</div>
 		</div>
+		<script src="js/svgcheckbx.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/jquery.cbpFWSlider.min.js"></script>
 		<script>
