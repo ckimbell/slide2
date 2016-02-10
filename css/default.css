@@ -226,10 +226,17 @@ textarea, input[type="text"] {
 
 }
 
+.vidthumb-container {
+
+    display: block;
+    text-align: center;
+    outline: none;
+}
+
 .vidthumb {
 	position: relative;
     left: -6px;
-    top: 48px;
+    top: 25px;
     opacity: .95;
     filter:alpha(opacity=95);         
     }
