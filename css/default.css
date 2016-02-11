@@ -237,13 +237,20 @@ textarea, input[type="text"] {
 	position: relative;
     left: -6px;
     top: 25px;
-    opacity: .95;
-    filter:alpha(opacity=95);         
+    opacity:1;
+    filter:alpha(opacity=100); 
+    transition: all .2s ease-in-out; 
+       
     }
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
 .vidthumb:hover {
-    opacity:1.0;
-    filter:alpha(opacity=100); 
+	opacity: .95;
+    filter:alpha(opacity=95);  
+
+    //transform: scale(.98);
 }
 
 .perspective {
